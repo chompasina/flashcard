@@ -12,17 +12,17 @@ attr_reader :card,
   end
 
   def correct?
-  if response == @card.answer
+  if response == card.answer
     true
-  # else response != @card.answer
-  #   false
+  else
+    false
   end
   end
 
   def feedback
-    if response == @card.answer
+    if correct?
       "Correct!"
-    else response != @card.answer
+    else
       "Incorrect!"
     end
   end
