@@ -1,8 +1,9 @@
+require "pry"
+
 class Guess
 attr_reader :card,
             :response,
             :correct
-
 
   def initialize(response, card)
     @card = card
