@@ -3,12 +3,13 @@ require "pry"
 class Guess
 attr_reader :card,
             :response,
-            :correct
+            :correct,
+            :feedback
 
   def initialize(response, card)
     @card = card
     @response = response
-    @correct = correct
+    @feedback = feedback
   end
 
   def correct?
