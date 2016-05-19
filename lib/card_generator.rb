@@ -3,7 +3,6 @@ require "pry"
 
 
 class CardGenerator
-
   attr_reader :filename,
               :cards
 

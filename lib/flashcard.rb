@@ -3,7 +3,6 @@ require './lib/deck'
 require './lib/round'
 
 class Card
-
 attr_reader :question,
             :answer
 

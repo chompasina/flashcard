@@ -44,6 +44,6 @@ attr_reader :deck,
   end
 
     def end
-      puts "  ****** Game over! ******   \n You had #{number_correct} guesses out of #{deck.count} for a score of #{percent_correct}%."
+      puts "  ****** Game over! ******   \n You got #{number_correct} correct out of #{deck.count} for a score of #{percent_correct}%."
     end
 end
