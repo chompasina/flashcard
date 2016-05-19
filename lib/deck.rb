@@ -1,6 +1,4 @@
-require './lib/flashcard'
-require './lib/guess'
-require './lib/round'
+require "pry"
 
 class Deck
 attr_reader :cards
