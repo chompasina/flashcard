@@ -12,7 +12,7 @@ class CardGenerator
   end
 
   def cards
-    file = File.read(@filename)
+    file = File.read("./lib/cards.txt")
     array = file.split("\n").map do |line|
      line.split(",")
     end
